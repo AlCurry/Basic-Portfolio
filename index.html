@@ -19,7 +19,7 @@ GWU full stack development program  -->
   <body>
       <header>
       <div id="nav">
-            <div id="name"><h1>Al Curry</h1></div>            
+            <div id="nameHeader"><h1>Al Curry</h1></div>            
             <ul>
             <li><a href="index.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
@@ -28,7 +28,8 @@ GWU full stack development program  -->
       </div>
       </header>
       <div id="contact">
-            <div id="contactTitle">About me</div>
+            <div class="contactTitle">About me</div>
+            <hr>
       <img src="assets/images/ACReichstag.jpg" id="photo" height=250px width=250px>
 
       <div id="desc">Developer currently staying in Bethesda, but officially residing in Brooklyn NY.  
@@ -36,12 +37,21 @@ GWU full stack development program  -->
           Recent studies include GWU Full Stack Development bootcamp and iOS app development.
           Goal: to continue learning, especially mobile and web technologies and to live and work in Berlin.
        </div>
-
-<!--   to be added :       
-       "Contact Me box" floated left so that is appears to the right of the larger "contact" div.
-       Box will include images that link to github, linkedin, and stack overflow.
--->
       </div>
+
+      <div class="connect">
+                <h3 class="contactTitle">Connect</h3>
+                <hr class="connectHr">
+                <a class="rmv-line" href="https://www.linkedin.com/in/alcurry/" target="_blank">
+                  <img src="./assets/images/linkedin_icon.png" style="margin-left: 12px" class="connectImg" alt="LinkedIn icon">
+              </a>
+                 <a class="rmv-line" href="https://github.com/AlCurry" target="_blank">
+                    <img src="./assets/images/github-icon.png" class="connectImg" alt="Github icon">
+                </a>
+                  <a class="rmv-line" href="https://stackoverflow.com/users/9216239/user9216239" target="_blank">
+                   <img src="./assets/images/stackoverflow_icon.png" class="connectImg" alt="Stack Overflow icon">
+                </a>  
+        </div>
       <footer id="foot">
             &copy; copyright 2018 Al Curry
       </footer> 

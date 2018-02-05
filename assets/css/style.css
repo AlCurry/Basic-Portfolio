@@ -33,7 +33,7 @@ header {
     width: 100%;
     margin: auto 0;
 }
-#name {
+#nameHeader {
      font-size: 30px;
      background-color: #4aaaa5;
      color: white;
@@ -44,17 +44,72 @@ header {
      display: inline-block;
      border-bottom: 2px solid #cccccc;
 }
-#contactTitle {
+.contactTitle {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 28px;
     color: #4aaaa5;
-    padding: 20px;
+    padding: 18px 16px 12px 16px;
 }
 #contact {
     margin: 30px 0 50px 100px;
     background-color: #ffffff;
     width: 650px;
     height: 500px;
+    float: left;
+}
+.formLabel {
+    padding-left: 16px;
+}
+.formInput {
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin: 10px 20px 10px 16px;
+
+}
+.formText {
+    width: 500px;
+    height: 150px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin: 10px 20px 10px 16px; 
+    border: 1px solid rgba(211, 211, 211, 0.9);
+}
+
+::placeholder {
+    color: rgba(211, 211, 211, 0.9); 
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0 0 10px 16px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: #318580;
+}
+.rmv-line{
+    text-decoration: none;
+}
+.connect {
+    margin: 30px 0 50px 100px;
+    background-color: #ffffff;
+    width: 270px;
+    height: 270px;
+    float: left;
+}
+.connectImg {
+    width: 70px;
+    height: 70px;
+    margin: 10px 6px 10px 6px; 
+    /* border: 1px solid black; */
 }
 #photo {
     padding: 0 0 0 20px;
@@ -97,4 +152,14 @@ header {
     position: fixed;
     bottom: 0;
     left: 0;
+}
+hr {
+    /* color: #777777; */
+    border-top: 2px solid #cccccc;
+    width: 97%;
+}
+.connectHr {
+    /* color: #777777; */
+    border-top: 2px solid #cccccc;
+    width: 90%;
 }
